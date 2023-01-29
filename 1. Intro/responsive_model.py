@@ -16,3 +16,7 @@ def test_endpoint():
 @app.get('/', response_class=PlainTextResponse)
 def home():
     return 'welcome'
+
+
+print('ayoub')
+
